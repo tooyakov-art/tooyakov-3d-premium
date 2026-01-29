@@ -1,0 +1,37 @@
+{
+  "name": "tooyakov-3d-premium",
+  "version": "1.0.0",
+  "description": "🔥 TOOYAKOV STUDIO - 3D Premium Portfolio with Three.js animations and modern design",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8089",
+    "start": "python -m http.server 8089",
+    "build": "echo 'Static 3D site - no build needed'",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [
+    "tooyakov",
+    "3d-portfolio", 
+    "threejs",
+    "webgl",
+    "premium-design",
+    "scroll-animation",
+    "glass-morphism",
+    "modern-web",
+    "3d-website",
+    "digital-agency"
+  ],
+  "author": "TOOYAKOV STUDIO",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tooyakov-art/tooyakov-3d-premium.git"
+  },
+  "homepage": "https://tooyakov-art.github.io/tooyakov-3d-premium/",
+  "dependencies": {
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
